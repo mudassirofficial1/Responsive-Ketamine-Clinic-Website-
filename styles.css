@@ -1,0 +1,175 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .navbar .logo img {
+    width: 150px;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    /* background-image: url(../images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTcyNzgwOS13aWtpbWVkaWEtaW1hZ2Uta293YmVxYTQuanBn.jpg); */
+    background-size: cover;
+    background-image: url("../images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTcyNzgwOS13aWtpbWVkaWEtaW1hZ2Uta293YmVxYTQuanBn.jpg");
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Info Section */
+  .info {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-text h2 {
+    color: #0072bc;
+  }
+  
+  .info-text p, .info-contact p {
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    color: #0072bc;
+    text-decoration: none;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Form */
+  .contact {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .team-member p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0072bc;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  
